@@ -1,6 +1,6 @@
 # Investigating the effect of novel classes in semi-supervised learning
 
-This repository contains code and other files used to investigate the effect of novel classes in unlabelled data when using semi-supervised learning. We define novel classes as the classes that exist in the unlabelled data but not in the labelled data. We used Pseudo-Label and Mean Teacher semi-supervised algorithms in our experiments. We also proposed a 1-nearest-neighbour based weighting scheme to reduce the negative effect of novel classes. The experiments were run on three datasets: MNIST, Fashion-MNIST and CIFAR-10. In our experiments, the novel classes are the last 5 classes - {5, 6, 7, 8, 9}. The labelled data (including validation and test sets) only include classes {0, 1, 2, 3, 4}.
+This repository contains code and other files used to investigate the effect of novel classes in unlabelled data when using semi-supervised learning. We define _novel_ classes as the classes that exist in the unlabelled data but not in the labelled data. We used Pseudo-Label and Mean Teacher semi-supervised algorithms in our experiments. We also proposed a 1-nearest-neighbour based weighting scheme to reduce the negative effect of novel classes. The experiments were run on three datasets: MNIST, Fashion-MNIST and CIFAR-10. In our experiments, the novel classes are the last 5 classes - {5, 6, 7, 8, 9}. The labelled data (including validation and test sets) only include classes {0, 1, 2, 3, 4}.
 
 Example of use:
 ```
