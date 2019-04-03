@@ -6,11 +6,11 @@ Example of use:
 ```
 python meanteacher_cifar10_main.py \
     --n-labeled 3000 \
-    --alpha 100
-    --ema-decay 0.99
-    --pure False
-    --rampup-period 10
-    --lr 0.0001
+    --alpha 100 \
+    --ema-decay 0.99 \
+    --pure False \
+    --rampup-period 10 \
+    --lr 0.0001 \
     --epochs 180 \
     --runs 10
 ```
