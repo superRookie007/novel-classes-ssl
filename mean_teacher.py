@@ -1,4 +1,4 @@
-'''Define functions for training, testing and assigning labels.'''
+'''Implement the Mean Teacher algorithm.'''
 import time
 import torch
 import torch.nn.functional as F

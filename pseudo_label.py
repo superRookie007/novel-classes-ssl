@@ -1,4 +1,4 @@
-'''Define functions for training, testing and assigning labels.'''
+'''Implement the Pseudo-Label algorithm.'''
 import time
 
 import torch

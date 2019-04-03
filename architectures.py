@@ -1,4 +1,4 @@
-'''Define all the model architectures.'''
+'''Define all the model architectures in the experiments.'''
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
