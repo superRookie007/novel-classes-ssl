@@ -11,7 +11,7 @@ python meanteacher_cifar10_main.py \
     --pure False \
     --rampup-period 10 \
     --lr 0.0001 \
-    --epochs 180 \
+    --epochs 100 \
     --runs 10
 ```
 The above command will run our implementation of Mean Teacher on the CIFAR-10 dataset. The number of labelled training examples is set to 3000. The coefficient that controls the importance of consistency cost in Mean Teacher is set as 100. The rampup period for alpha is 10 epochs. The ema decay rate is set to 0.99. Learning rate is 0.0001. We set --pure to False, this means the unlabelled data include examples from novel classes. The training will proceed for 100 epochs. The experiment will be run 10 times, the data seed will be different for each run.
